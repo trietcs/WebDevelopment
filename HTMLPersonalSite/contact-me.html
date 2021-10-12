@@ -6,17 +6,19 @@
     </head>
     <body>
         <h1>My Contact Details</h1>
-        <form>
+        <p>My Fictional Address</p>
+        <p>0901236545</p>
+        <p>myemail@gmail.com</p>
+        <hr>
+        <form action="mailto:info@gamil.com" method="post" enctype="text/plain">
             <label>Your Name: </label>
-            <input type="text"><br>
+            <input type="text" name="yourName"><br>
             <label>Date of birth: </label>
-            <input type="date"><br>
+            <input type="date" name="yourBirth"><br>
             <label>Your email: </label>
-            <input type="email"><br>
-            <label>Your hobbies: </label>
-            <input type="text"><br>
-            <label>CV: </label>
-            <input type="file"><br>
+            <input type="email" name="yourEmail"><br>
+            <label>Your Message:</label><br>
+            <textarea name="yourMessage" rows="10" cols="40"></textarea><br>
             <input type="submit">
 
         </form>
