@@ -7,7 +7,7 @@ h1 {
 }
 
 .top-container {
-  background-color: #F9F7F7;
+  background-color: #D7FBE8;
 }
 
 .middle-container {
@@ -20,4 +20,8 @@ h1 {
   background-color: blue;
   width: 200px;
   height: 200px;
+}
+
+.pro {
+  text-decoration: underline;
 }
